@@ -34,7 +34,7 @@
                     
                     <!-- More information about what I do on computers -->
                     <h3>Computers and Technology</h3>
-                    <p>I am most proficient in Linux and macOS and those are the two operating systems I use at home. I am not an actual programmer, but I know my way around HTML, CSS and PHP and also Ruby and a bit of other languages; I am, however, far from an expert in any of these and considering I do not often write in them, I’d have to practice a bit before actually starting to write anything again. </p>
+                    <p>I am most proficient in Linux and macOS as those are the two operating systems I use at home. I am not an actual programmer, but I know my way around HTML, CSS and PHP and also Ruby and a bit of other languages; I am, however, far from an expert in any of these and considering I do not often write in them, I’d have to practice a bit before actually starting to write anything again. </p>
 
                     <p>I am the owner and administrator of various websites and online services, namely <a href="https://birds.town">birds.town</a> (a Mastodon instance), <a href="https://birdtu.be">birdtu.be</a> (a PeerTube instance for bird and wildlife videos), <a href="https://ancient-greek.net">ancient-greek.net</a> (a website with information on Ancient Greek) and <a href="https://beakandlens.com">beakandlens.com</a> (a website showcasing my photography).</p>
 
