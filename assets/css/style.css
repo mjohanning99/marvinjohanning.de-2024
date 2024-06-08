@@ -98,9 +98,8 @@ main h2 {
     font-size: 1.7em;
     margin-bottom: 25px;
     color: black;
-    border-top: 4px solid #6e1a1a;
-    border-bottom: 4px solid #6e1a1a;
-    border-radius: 14px;
+    border-top: 4px solid rgba(110, 26, 26, 0.6); /* Adjusted to 80% opacity */
+    border-bottom: 4px solid rgba(110, 26, 26, 0.6); /* Adjusted to 80% opacity */
     padding: 5px;
     font-variant: small-caps;
     text-align: center;
@@ -315,7 +314,8 @@ a.border-transition:hover {
 /* General styling for all headings */
 h3 {
     font-family: 'Merriweather', sans-serif; /* Ensuring consistent font */
-    color: rgb(67, 67, 67); /* Dark grey for a subtle look */
+    /* color: rgb(67, 67, 67); Dark grey for a subtle look */
+    color: black;
     font-weight: 700; /* Bold */
     letter-spacing: 0.05em; /* Slight letter spacing */
     margin-top: 40px; /* Space above the heading */
