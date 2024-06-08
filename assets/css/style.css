@@ -46,46 +46,50 @@ body {
 
 /* Header styling */
 header {
-    background: #333;
     color: #fff;
+    background: #333;
     padding: 20px 0;
     text-align: center;
     margin-bottom: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
 header h1 {
     margin: 0;
-    font-size: 2.2em;
+    font-size: 2.5em;
+    font-weight: bold;
+    letter-spacing: 0.05em; /* Slight letter spacing */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Text shadow for depth */
 }
 
-/* Navigation styling */
-nav ul {
+header nav ul {
     list-style: none;
     padding: 0;
-    text-align: center;
-    margin-top: 10px; /* Add some space above the navigation */
+    margin: 15px 0 0; /* Space above the navigation */
+    display: flex;
+    justify-content: center;
 }
 
-nav ul li {
-    display: inline-block;
+header nav ul li {
     margin: 0 15px;
 }
 
-nav ul li a {
+header nav ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.1em;
     padding: 10px 15px;
-    transition: background-color 0.3s, color 0.3s;
+    transition: color 0.3s, background-color 0.3s;
     border-radius: 5px; /* Rounded corners */
 }
 
-nav ul li a:hover {
-    background-color: rgba(255, 255, 255, 0.2); /* Subtle hover background */
-    color: #fff;
+header nav ul li a:hover {
+    background-color: #A52A2A; /* Bordeaux hover background */
+    color: #fff; /* White text on hover */
     text-decoration: none;
 }
+
 
 /* Main content styling */
 main {
@@ -94,10 +98,10 @@ main {
 
 main h2 {
     font-size: 1.7em;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     color: #333;
     border-bottom: 2px solid #eaeaea;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
 }
 
 main p {
@@ -109,6 +113,38 @@ main p {
     height: 150px;
     border-radius: 50%;
     display: block;
+    margin: 20px auto;
+}
+
+/* Profile picture container styling */
+.profile-picture-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    width: 15em;
+}
+
+.profile-picture-container img {
+    border-radius: 10%;
+    width: 100%;
+    height: auto;
+    border: 3px solid #A52A2A; /* Bordeaux border to match the theme */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    background-color: #f9f9f9; /* Light background color */
+}
+
+/* Figcaption styling */
+figcaption {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 10px;
+    text-align: center;
+}
+
+figure {
+    text-align: center;
     margin: 20px auto;
 }
 
@@ -280,6 +316,19 @@ a.border-transition {
 
 a.border-transition:hover {
     border-color: transparent;
+}
+
+/* General styling for all headings */
+h3 {
+    font-family: 'Merriweather', sans-serif; /* Ensuring consistent font */
+    color: #333; /* Dark grey for a subtle look */
+    font-weight: 700; /* Bold */
+    text-transform: uppercase; /* Uppercase letters for a modern feel */
+    letter-spacing: 0.05em; /* Slight letter spacing */
+    margin-top: 40px; /* Space above the heading */
+    margin-bottom: 10px; /* Space below the heading */
+    border-bottom: 2px solid #A52A2A; /* Bordeaux underline for distinction */
+    padding-bottom: 2px; /* Space between text and underline */
 }
 
 /* Media queries for responsiveness */

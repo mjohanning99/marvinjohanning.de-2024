@@ -13,14 +13,13 @@
 <body>
     <main class="container">
         <section class="box-shadow">
-            <section>
+            <figure class="profile-picture-container">
+                <img src="/assets/images/profile.jpg" alt="Profile Picture"/>
+                <figcaption>Me at the library of the University of Bielefeld</figcaption>
+            </figure>
 
+            <section>
                 <h2>About Me</h2>
-                <figure>
-                    <img src="/assets/images/profile.jpg" alt="Profile Picture" class="profile-picture"/>
-                    <figcaption>Me at the library of the University of Bielefeld</figcaption>
-                </figure>
-                
                 <div class="justified">
                     <!-- Introduction -->
                     <p>Hello and welcome to my personal website! Here you will find some information about myself and my other websites. My name is Marvin Johanning. I currently reside in Bielefeld, Germany. </p>
@@ -29,7 +28,7 @@
 
                     <!-- General information about me -->
                     <h3>General information</h3>
-                    <p>I am and always have been very interested in computers and technology in general. I spend a lot of my freetime doing various things on my computer. In addition to this, I also like photography. I mainly take photos of birds, but I also, at times, take photos of other things. I like interesting wines, teas and beer and will also, though only very occasionally, drink some whiskey, too. </p>
+                    <p>I am and always have been very interested in computers and technology in general. I spend a lot of my free time doing various things on my computer. In addition to this, I also like photography. I mainly take photos of birds, but I also, at times, take photos of other things. I like interesting wines, teas and beer and will also, though only very occasionally, drink some whiskey, too. </p>
                     
                     <!-- More information about what I do on computers -->
                     <h3>Computers and Technology</h3>
