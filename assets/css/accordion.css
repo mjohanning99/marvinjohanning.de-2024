@@ -1,0 +1,59 @@
+/* Accordion Menu */
+.accordion-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.accordion-menu li {
+    position: relative;
+}
+
+.accordion-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 10px 15px;
+    transition: color 0.3s, background-color 0.3s;
+    border-radius: 5px; /* Rounded corners */
+}
+
+.accordion-menu a:hover {
+    background-color: #f1f1f1;
+}
+
+.accordion-menu .submenu > a::after {
+    /* content: '\25BC'; Down arrow */
+    float: right;
+}
+
+.accordion-menu .submenu ul {
+    display: none;
+    background-color: #333;
+}
+
+.accordion-menu .submenu li:first-of-type {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.accordion-menu .submenu li:last-of-type {
+    padding-bottom: 0px;
+}
+
+.accordion-menu .submenu li {
+    padding-bottom: 15px;
+}
+
+.accordion-menu .submenu.active ul {
+    display: block;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .accordion-menu a {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+}

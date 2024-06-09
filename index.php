@@ -37,7 +37,8 @@
                     <p>I am most proficient in Linux and macOS as those are the two operating systems I use at home. I am not an actual programmer, but I know my way around HTML, CSS and PHP and also Ruby and a bit of other languages; I am, however, far from an expert in any of these and considering I do not often write in them, I’d have to practice a bit before actually starting to write anything again. </p>
 
                     <p>I am the owner and administrator of various websites and online services, namely <a href="https://birds.town">birds.town</a> (a Mastodon instance), <a href="https://birdtu.be">birdtu.be</a> (a PeerTube instance for bird and wildlife videos), <a href="https://ancient-greek.net">ancient-greek.net</a> (a website with information on Ancient Greek) and <a href="https://beakandlens.com">beakandlens.com</a> (a website showcasing my photography).</p>
-
+                        
+                    <!-- Why are you reading the comments that I left in the source code? Well, if you do, send me an email, I'd love to hear about it! (yes, I am serious). -->
                     <p>I recently built my own computer for the very first time so that I could finally play some games. I tend to play RPGs or (usually older) shooter games such as Quake or Half-Life. I am running Pop!_OS on that machine but might switch over to something like Fedora in the future. As a laptop, however, I have yet to find any machine that comes even close to the performance of my M1 MacBook. Therefore, I also use macOS, though only on my laptop and out of necessity, especially since I require either a Windows or macOS system for various photography-related tasks.</p>
 
                     <!-- Some info about my learning languages (or not learning, at the moment) -->

@@ -1,6 +1,6 @@
 <header>
     <div class="container-header">
-        <h1>Marvin Johanning - Personal Website</h1>
+        <h1>Marvin Johanning</h1>
         <nav>
             <ul>
                 <li><a href="index.php">Home</a></li>
